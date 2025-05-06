@@ -1,0 +1,62 @@
+{
+    "ldf_filename": {
+        'LED': "LED_LDF_FILENAME.ldf",
+		'SENSOR': "SENSOR_LDF_FILENAME.ldf"
+    },
+    "get_frames": {
+        "LED": [
+            10,
+            12
+        ],
+        "SENSOR": [
+            1,
+            2
+        ]
+    },
+    "linis": "\n\n152D1567   \n152D3A79   \n152D0CBB\n152D9361\n152D3717\n152D20F8\n\n",
+    "frames_to_send": [
+        [
+            "1",
+            "",
+            "E"
+        ],
+        [
+            "2",
+            "",
+            "E"
+        ],
+        [
+            "A",
+            {
+                "CIL1_Int_Hi_Rq_ST3": 15.0,
+                "CIL1_Int_Lo_Rq_ST3": 0.0,
+                "CIL1_Red_Val_Rq_ST3": 100.0,
+                "CIL1_Blu_Val_Rq_ST3": 45.0,
+                "CIL1_Grn_Val_Rq_ST3": 90.0,
+                "CIL1_Blnk_Fd_Tm_ST3": 0.0,
+                "CIL1_FuncMd_Rq_ST3": "ON",
+                "CIL1_Hold_Tm_ST3": 0.0
+            },
+            "E"
+        ],
+        [
+            "C",
+            "",
+            "E"
+        ]
+    ],
+    "waitBetweenFrames": 0.0,
+    "waitBetweenFrameblocks": 0.0,
+    "log_interval": 1.0,
+    "selected_log_signals": [
+        "CIS_DC_DCplus_Temp_ST3",
+        "CIS_DC_DCminus_Temp_ST3",
+        "CIS_DC_AC_Temp_ST3",
+        "CIL1_Occur_ST3"
+    ],
+    "dig_of_precision": 3,
+    "additional_file_description": "",
+    "start_delay_in_s": 0,
+    "test_time_in_s": 0,
+    "running": true
+}
